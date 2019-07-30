@@ -1,5 +1,13 @@
 PODS:
-  - WeGamersSDK (0.1.0)
+  - WeGamersSDK (0.1.0):
+    - WeGamersSDK/AuthKit (= 0.1.0)
+    - WeGamersSDK/CommunityKit (= 0.1.0)
+    - WeGamersSDK/GameLiveKit (= 0.1.0)
+    - WeGamersSDK/GameReplayKit (= 0.1.0)
+  - WeGamersSDK/AuthKit (0.1.0)
+  - WeGamersSDK/CommunityKit (0.1.0)
+  - WeGamersSDK/GameLiveKit (0.1.0)
+  - WeGamersSDK/GameReplayKit (0.1.0)
 
 DEPENDENCIES:
   - WeGamersSDK (from `../`)
@@ -9,7 +17,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WeGamersSDK: ceb029aefca20bb04af660c4746996eb5204ec62
+  WeGamersSDK: c3cb6491fa42c139e5f4e9f945f1c26a246df09b
 
 PODFILE CHECKSUM: 951b090f84780f194f17a332be12b24c8c1df5bf
 

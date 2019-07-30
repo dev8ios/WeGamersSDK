@@ -63,7 +63,7 @@ Pod::Spec.new do |s|
   end
   
   #子模块：游戏社区
-  s.subspec '' do |ss|
+  s.subspec 'CommunityKit' do |ss|
 	  #ss.ios.deployment_target = '9.0'
 	  ss.source_files = 'WeGamersSDK/Classes/CommunityKit/**/*'
   end
