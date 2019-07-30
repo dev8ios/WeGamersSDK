@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'WeGamersSDK_Example' do
+  pod 'WeGamersSDK', :path => '../'
+
+  target 'WeGamersSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
