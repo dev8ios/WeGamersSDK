@@ -1,0 +1,16 @@
+PODS:
+  - WeGamersSDK (0.1.0)
+
+DEPENDENCIES:
+  - WeGamersSDK (from `../`)
+
+EXTERNAL SOURCES:
+  WeGamersSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WeGamersSDK: ceb029aefca20bb04af660c4746996eb5204ec62
+
+PODFILE CHECKSUM: 951b090f84780f194f17a332be12b24c8c1df5bf
+
+COCOAPODS: 1.6.1

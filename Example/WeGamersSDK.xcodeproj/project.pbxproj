@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D09F92E6F260EED066A2472 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0D09F92E6F260EED066A2472 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		1C5CDCF2C6DF7EA1E887476C /* Pods-WeGamersSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeGamersSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-WeGamersSDK_Example/Pods-WeGamersSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3474FD3AC2FE6BE7D14A60AC /* Pods_WeGamersSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeGamersSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48DD933AFDBFC9574164A253 /* Pods-WeGamersSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeGamersSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-WeGamersSDK_Tests/Pods-WeGamersSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -60,11 +60,11 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		68DB820AC26F7D97C9E26079 /* WeGamersSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WeGamersSDK.podspec; path = ../WeGamersSDK.podspec; sourceTree = "<group>"; };
+		68DB820AC26F7D97C9E26079 /* WeGamersSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WeGamersSDK.podspec; path = ../WeGamersSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6E492663F48305BBAA9F056B /* Pods_WeGamersSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeGamersSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D8ACB4042403C6E836DB2AD0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D8ACB4042403C6E836DB2AD0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F0A50495EAE55C584C987988 /* Pods-WeGamersSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeGamersSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-WeGamersSDK_Example/Pods-WeGamersSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FC3BA781579D86303988F8E5 /* Pods-WeGamersSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeGamersSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WeGamersSDK_Tests/Pods-WeGamersSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +103,6 @@
 				FC3BA781579D86303988F8E5 /* Pods-WeGamersSDK_Tests.debug.xcconfig */,
 				48DD933AFDBFC9574164A253 /* Pods-WeGamersSDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				570C3E945A0670AF3F5E757B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -258,6 +256,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -295,28 +294,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		570C3E945A0670AF3F5E757B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WeGamersSDK_Example/Pods-WeGamersSDK_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/WeGamersSDK/WeGamersSDK.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WeGamersSDK.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WeGamersSDK_Example/Pods-WeGamersSDK_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		8739319B59FB6A3AF8DB7EB0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
