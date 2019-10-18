@@ -1,0 +1,6 @@
+framework module GameCommunitySDK {
+  umbrella header "GameCommunitySDK.h"
+
+  export *
+  module * { export * }
+}

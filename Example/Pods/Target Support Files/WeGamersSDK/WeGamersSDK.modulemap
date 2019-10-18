@@ -1,0 +1,6 @@
+framework module WeGamersSDK {
+  umbrella header "WeGamersSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -4,6 +4,10 @@ platform :ios, '8.0'
 
 target 'WeGamersSDK_Example' do
   pod 'WeGamersSDK', :path => '../'
+  pod 'WeGamersSDK/AuthKit', :path => '../'
+  pod 'WeGamersSDK/GameReplayKit', :path => '../'
+  pod 'WeGamersSDK/GameLiveKit', :path => '../'
+  pod 'WeGamersSDK/CommunityKit', :path => '../'
 
   target 'WeGamersSDK_Tests' do
     inherit! :search_paths

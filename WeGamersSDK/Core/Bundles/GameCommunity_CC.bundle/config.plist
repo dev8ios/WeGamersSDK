@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>COMMUNITY_LOGINURL</key>
+	<string>https://api.community.wegamers.com/gameWebApi/user/login</string>
+	<key>COMMUNITY_LOGINURL_DEV</key>
+	<string>http://10.0.2.128:9191/gameWebApi/user/login</string>
+	<key>COMMUNITY_LOGINURL_QA</key>
+	<string>http://10.0.2.56:9191/gameWebApi/user/login</string>
+	<key>COMMUNITY_GETREDURL</key>
+	<string>https://api.community.wegamers.com/gameWebApi/sns/getCommunityMentionSeq?uin=%@&amp;gameid=%@&amp;accountid=%@&amp;sdkid=%@&amp;reddotstatus=0</string>
+	<key>COMMUNITY_GETREDURL_DEV</key>
+	<string>http://10.0.2.128:9191/gameWebApi/sns/getCommunityMentionSeq?uin=%@&amp;gameid=%@&amp;accountid=%@&amp;sdkid=%@&amp;reddotstatus=0</string>
+	<key>COMMUNITY_GETREDURL_QA</key>
+	<string>http://10.0.2.56:9191/gameWebApi/sns/getCommunityMentionSeq?uin=%@&amp;gameid=%@&amp;accountid=%@&amp;sdkid=%@&amp;reddotstatus=0</string>
+	<key>COMMUNITY_ACCESSTOKEN</key>
+	<string>https://api.community.wegamers.com/gameWebApi/user/tokens/%@</string>
+	<key>COMMUNITY_ACCESSTOKEN_DEV</key>
+	<string>http://10.0.2.128:9191/gameWebApi/user/tokens/%@</string>
+	<key>COMMUNITY_ACCESSTOKEN_QA</key>
+	<string>http://10.0.2.56:9191/gameWebApi/user/tokens/%@</string>
+	<key>COMMUNITY_MSGPUSH</key>
+	<string>https://api.community.wegamers.com/gameWebApi/msg/getLastestCommunityMsg?sdkid=%@&amp;lang=%@&amp;deviceid=%@&amp;uin=%@&amp;gameid=%@</string>
+	<key>COMMUNITY_MSGPUSH_DEV</key>
+	<string>http://10.0.2.128:9191/gameWebApi/msg/getLastestCommunityMsg?sdkid=%@&amp;lang=%@&amp;deviceid=%@&amp;uin=%@&amp;gameid=%@</string>
+	<key>COMMUNITY_MSGPUSH_QA</key>
+	<string>http://10.0.2.56:9191/gameWebApi/msg/getLastestCommunityMsg?sdkid=%@&amp;lang=%@&amp;deviceid=%@&amp;uin=%@&amp;gameid=%@</string>
+	<key>COMMUNITY_MONITOR</key>
+	<string>http://crec.wegamers.com:86/submitText</string>
+	<key>COMMUNITY_MONITOR_DEV</key>
+	<string>http://10.0.2.128:8022/submitText</string>
+	<key>COMMUNITY_MONITOR_QA</key>
+	<string>http://10.0.2.128:8021/submitText</string>
+</dict>
+</plist>

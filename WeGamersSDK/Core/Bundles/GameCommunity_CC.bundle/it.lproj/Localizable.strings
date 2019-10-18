@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  GLWebSDKSample
+
+  Created by Lion on 2018/10/24.
+  Copyright © 2018 ShangjinChi. All rights reserved.
+*/
+"wg_h5_txt_dataloadexception" = "{\"src\":\"Anomalia nel download dei dati, riprova più tardi.\" }";
+"notice_tip_txt_network" = "{\"src\":\"Nessuna connessione di rete. Verifica le impostazioni e riprova.\" }";
+"newuser_btn_loadagain" = "{\"src\":\"Aggiorna\" }";
+"sdk_err_version_ios" = "{\"src\":\"You can't view the Community as your device system is lower than iOS 8.0.\" }";
+"sdk_txt_view_" = "{\"src\":\"Vedi\" }";
+"chat_openurl_prompt" = "{\"src\":\"Stai per essere reindirizzato a una pagina non gestita da WeGamers. Potrebbero esserci dei problemi di sicurezza. Continui?\" }";
+"web_group_txt_more_no" = "{\"src\":\"Annulla\" }";
+"web_group_txt_more_yes" = "{\"src\":\"OK\" }";

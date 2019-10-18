@@ -7,12 +7,14 @@
 //
 
 #import "WeGamersAppDelegate.h"
+#import <GameCommunitySDK/GameCommunitySDK.h>
 
 @implementation WeGamersAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [GameCommunityEntry initAppOrientationMask:UIInterfaceOrientationMaskLandscape];
+    
     return YES;
 }
 

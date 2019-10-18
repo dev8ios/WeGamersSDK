@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  GLWebSDKSample
+
+  Created by Lion on 2018/10/24.
+  Copyright © 2018 ShangjinChi. All rights reserved.
+*/
+"wg_h5_txt_dataloadexception" = "{\"src\":\"データの読み込みにエラーが発生しました。\" }";
+"notice_tip_txt_network" = "{\"src\":\"ネットワークに接続されていません。再度、接続しなおしてください。\" }";
+"newuser_btn_loadagain" = "{\"src\":\"リフレッシュ\" }";
+"sdk_err_version_ios" = "{\"src\":\"You can't view the Community as your device system is lower than iOS 8.0.\" }";
+"sdk_txt_view_" = "{\"src\":\"閲覧\" }";
+"chat_openurl_prompt" = "{\"src\":\"WeGamersが運営していないウェブサイトを開こうとしています。セキュリティ上に問題ある可能性があります。よろしいですか？\" }";
+"web_group_txt_more_no" = "{\"src\":\"キャンセル\" }";
+"web_group_txt_more_yes" = "{\"src\":\"OK\" }";

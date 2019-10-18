@@ -29,19 +29,17 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
-  s.source_files = 'WeGamersSDK/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'WeGamersSDK' => ['WeGamersSDK/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.default_subspecs = 'Core'
+  s.static_framework = true
   
-  
-  
+  #子模块：游戏消息互通功能的认证&绑定
+  s.subspec 'Core' do |ss|
+    ss.vendored_frameworks = 'WeGamersSDK/Core/Frameworks/*.framework'
+    ss.frameworks = 'AdSupport'
+    ss.libraries = 'c++'
+    ss.resource = 'WeGamersSDK/Core/Bundles/*.bundle'
+  end
   
   #子模块：游戏消息互通功能的认证&绑定
   s.subspec 'AuthKit' do |ss|
